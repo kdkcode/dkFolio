@@ -1,46 +1,48 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: DO KYUNG KIM
+title: Junior Web Developer & Studying NLP
+email: kdky95@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://kdkcode.github.io/dkFolio/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username: kdkcode
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: dk_kdky95
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: channel/UCVSylrpUsoKaLzOApsYNfdg
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: Academy Site
+    icon: fa-light fa-sitemap
+    # (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: https://todaymathstudy.com/
+    # - title: another link
+    #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,15 +52,21 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_profile_image: images/dkprofile.jpg
+about_content: |
+  Hi, my name's Do Kyung KIM and I'm a junior web developer. As well as developing web, I am also good at communicating with people. I have worked at a number of companies gaining teamwork and leadership skills.
+  I have also had the experience of independently managing a Smart Store. This experience has allowed me to gain valuable skills in business operations, customer service, and marketing strategies. 
+  Through this opportunity, I further developed my communication, problem-solving, and decision-making abilities. It was a rewarding experience that enhanced my overall understanding of the e-commerce industry and provided me with valuable insights into running a successful online business.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am most skilled in: <mark>Python</mark> and <mark>Javascript</mark>
+
+  # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  # - Lists
+  # - Tables
+  # - <a href="google.com">Links</a>
+  # - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -67,74 +75,80 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Yogidam(여기담)
+        link: https://yogidam.com/
+        # (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+            url: https://github.com/sovement/yogidam
+            # (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: Notion page for project (eg. sproogen/modern-resume-theme)
+            icon: fa-regular fa-page
+            url: https://www.notion.so/Sovement-e40b0c2d277941079993e1651461dc54
+            # (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: |
+          My first team project
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          The platform aims to be a location service for smoking areas, with a focus on providing social value. 
+          Our goal is to create a platform that helps smokers easily locate designated smoking areas, promoting responsible and considerate smoking practices. 
+          By providing accurate and up-to-date information about smoking zones, we aim to enhance public awareness, reduce secondhand smoke exposure, and foster a more harmonious coexistence between smokers and non-smokers.
+  
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: TodayMath
+        link: https://todaymathstudy.com/
+        link_text: math academy site
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/kdkcode/TodayMath
+        quote: |
+          Math Learning Center Website Built with React
+        description: | # this will include new lines to allow paragraphs
+          I have built a math learning center website using React and Node.js. 
+          This project is a personal undertaking and is currently in progress.
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: InfoSpread
+        sub_title: Marketing
+        caption: 2016 - 2022
+        link: http://www.infospread.co.kr/
+        quote: |
+          Provide search advertising optimization services
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          As a freelance marketer, I have conducted Naver search advertising and Google Analytics analysis for an English conversation company, 
+          deriving insights and formulating advertising strategies.
+  
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Yonsei University
+        sub_title: BA Computer Science
+        caption: 2020 - 2024
+        quote: |
+          Yonsei University is located in Sinchon, Seoul, South Korea.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          While attending university, I have a strong enthusiasm for acquiring new knowledge and gaining hands-on experience through various projects.
+          With a future aspiration of starting my own startup, I have chosen to pursue a minor in Business Administration to complement my studies.
+  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      I enjoy meeting new people and engaging in meaningful conversations. 
+      In my free time, I am passionate about maintaining an active and healthy lifestyle through activities like fitness training and playing ice hockey.
+      If you are interested in partnering for a startup, please feel free to reach out to me via email at kdky95@naver.com. 
+      I am open to discussing potential entrepreneurial opportunities and exploring collaboration possibilities. I look forward to hearing from you.
+      - Fitness Training
+      - Ice Hockey
+      - Startup
+      - AI
+      
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
