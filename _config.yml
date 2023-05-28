@@ -102,7 +102,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: top-right
         title: InfoSpread
         sub_title: Marketing
         caption: 2016 - 2022
