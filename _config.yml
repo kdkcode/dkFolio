@@ -111,6 +111,8 @@ content:
           Provide search advertising optimization services
         description: | # this will include new lines to allow paragraphs
           As a freelance marketer, I have conducted Naver search advertising and Google Analytics analysis for an English conversation company, deriving insights and formulating advertising strategies.
+
+      
   
   - title: Education
     layout: list
@@ -124,6 +126,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           While attending university, I have a strong enthusiasm for acquiring new knowledge and gaining hands-on experience through various projects.
           With a future aspiration of starting my own startup, I have chosen to pursue a minor in Business Administration to complement my studies.
+          
+      - layout: top-right
+        title: Yonsei University
+        sub_title: MS Computer Science
+        caption: 2023 - 
+        quote: |
+          Yonsei University is located in Sinchon, Seoul, South Korea.
+        description: | # this will include new lines to allow paragraphs
+          Currently, I am conducting research on hate speech detection and also have an interest in generative AI research.
   
   - title: A Little More About Me
     layout: text
